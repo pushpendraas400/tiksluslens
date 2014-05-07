@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]-->
+<head>
+<title>Tikslus Lens examples</title>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/tiksluslens.js"></script>
+<script type="text/javascript" src="js/rainbow.min.js"></script>
+<link rel="stylesheet" href="css/normalize.css" />
+<link rel="stylesheet" href="css/tiksluslens.css" />
+<link rel="stylesheet" href="css/github.css" />
+<style>
+body{
+padding:20px;
+}
+</style>
+</head>
+<body>
+<h1 class="main_heading">Tikslus Lens</h1>
+                
+    
+		
+		<h4 class="heading">Example 1: with default Parameters</h4>
+		<p>HTML</p>
+			<PRE>
+		<code data-language="html">
+		
+		<div id="example1">
+		<img src="images/small_shoe.jpg" data-big-image="images/big_shoe.jpg" class="tiksluslens" />
+		</div>
+		</code>
+		</PRE>
+		
+		<p>Javascript</p>
+		<pre>
+		<code data-language="javascript">
+		
+		$(document).ready(function(){
+		$("#example1").tiksluslens();
+		});
+	
+		</code>
+		</pre>
+		
+		<!--code implementation -->
+		<div id="lens">
+		<img src="images/small_shoe.jpg" data-big-image="images/big_shoe.jpg" class="tiksluslens" />
+		</div>
+		
+		<script language="javascript">
+		$(document).ready(function(){
+		$("#lens").tiksluslens();
+		});
+		</script>
+
+		
+		
+		
+			<h4 class="heading">Example 2: Custom Lens size</h4>
+		
+		<p>HTML</p>
+			<PRE>
+		<code data-language="html">
+		
+		<div id="example2">
+		<img src="images/small_shoe.jpg" data-big-image="images/big_shoe.jpg" class="tiksluslens" />
+		</div>
+		</code>
+		</PRE>
+		
+		<p>Javascript</p>
+		<pre>
+		<code data-language="javascript">
+		
+		$(document).ready(function(){
+		$("#example2").tiksluslens({lensWidth:150,lensHeight:70});
+		});
+	
+		</code>
+		</pre>
+		
+		<!--code implementation -->
+		<div id="lens3">
+		<img src="images/small_shoe.jpg" data-big-image="images/big_shoe.jpg" class="tiksluslens" />
+		</div>
+		<script language="javascript">
+		$(document).ready(function(){
+		$("#lens3").tiksluslens({lensWidth:150,lensHeight:70});
+		});
+		</script>
+		
+		
+		
+			<h4 class="heading">Example 3: autoZoomRatio set to TRUE</h4>
+		
+		<p>HTML</p>
+			<PRE>
+		<code data-language="html">
+		
+		<div id="example3">
+		<img src="images/small_shoe.jpg" data-big-image="images/big_shoe.jpg" class="tiksluslens" />
+		</div>
+		</code>
+		</PRE>
+		
+		<p>Javascript</p>
+		<pre>
+		<code data-language="javascript">
+		
+		$(document).ready(function(){
+		$("#example3").tiksluslens({autoZoomRatio:true});
+		});
+	
+		</code>
+		</pre>
+		
+		<!--code implementation -->
+		<div id="lens4">
+		<img src="images/small_shoe.jpg" data-big-image="images/big_shoe.jpg" class="tiksluslens" />
+		</div>
+		<script language="javascript">
+		$(document).ready(function(){
+		$("#lens4").tiksluslens({autoZoomRatio:true});
+		});
+		</script>
+		
+		
+
+</body>
+
+
+
+
+</html>
