@@ -1,0 +1,36 @@
+{
+  "name": "tiksluslens",
+  "title": "Tikslus Zoom Image zoom plugin",
+  "version": "1.0.0",
+  "description": "Jquery Image zoom with magnifying lens.",
+  "homepage": "http://tikslus.com/plugins/free#tiksluslens",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pushpendra10/tiksluslens.git"
+  },
+  "keywords": [
+    "Image",
+    "jQuery",
+    "Zoom",
+    "maginify",
+    "magnifier",
+    "glass"
+  ],
+  "author": {
+    "name": "Pushpendra Singh Chouhan",
+    "email": "pushpendra.as400@gmail.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/pushpendra10/tiksluslens/blob/master/mit-license.txt"
+    }
+  ],
+  "bugs": "https://github.com/pushpendra10/tiksluslens/issues",
+  "download": "http://tikslus.com/web/bundles/tikslustikslus/downloads/tiksluslens.zip",
+  "demo" : "http://tikslus.com/tiksluslens/demo",
+  "docs" : "http://tikslus.com/tiksluslens/docs",
+  "dependencies": {
+    "jquery": ">=1.5"
+  }
+}
